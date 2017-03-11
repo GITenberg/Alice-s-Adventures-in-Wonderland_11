@@ -1,6 +1,9 @@
 _repo: Alice-s-Adventures-in-Wonderland_11
-_version: 0.0.1
+_version: 0.2.1
 alternative_title: Alice in Wonderland
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Carroll, Lewis
@@ -9,8 +12,10 @@ creator:
     deathdate: 1898
     gutenberg_agent_id: '7'
     url: http://www.gutenberg.org/2009/agents/7
-    wikipedia: https://en.wikipedia.org/wiki/Lewis_Carroll
+    wikipedia: http://en.wikipedia.org/wiki/Lewis_Carroll
 description: 'See also our HTML edition: #928'
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/11#Alice-s-Adventures-in-Wonderland
 gutenberg_bookshelf: Children's Literature
 gutenberg_issued: '2008-06-27'
 gutenberg_type: Text
@@ -24,5 +29,6 @@ subjects:
 - !lcc 'PR'
 - !lcc 'PZ'
 - !lcsh 'Fantasy'
+- GITenberg
 title: Alice's Adventures in Wonderland
 url: http://www.gutenberg.org/ebooks/11
